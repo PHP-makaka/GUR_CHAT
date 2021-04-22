@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GUR_CHAT</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="startPage" id="startPage">
+    <div class="containerPage ">
+        <input type="text" name=""  id="name"  value="" placeholder="введите Имя пользователя">
+<!--        <input type="text" name=""  id="name"  value="ZHE">-->
+        <button class="submitName" id="submitName" >
+            OK
+        </button>
+        <button class="submitName" id="CHENGEName">
+            выйти
+        </button>
+    </div>
+</div>
+<div id="page" >
+    <h1>GUR-CHAT</h1>
+    <form>
+
+        <input type="text"  autofocus id="userTask" class="input"  placeholder="отправить сообщение"/>
+        <div id="feedback"></div>
+        <button class="search-btn" id="btnSend">
+            OK
+        </button>
+
+    </form>
+<div class="mess">
+    <ul id='list'>
+    </ul>
+</div>
+
+</div>
+
+<script src="js/authorization.js"></script>
+<script src="js/sendReqest.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
+
