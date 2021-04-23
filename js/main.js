@@ -54,7 +54,7 @@ let namesGRUP = ["Сач", "GurZHEN", "Nut","Latvia","Piton","Slava","Litvinchuc
 
 function drow(data) {
     console.log(data)
-    data.map(elem => {
+    data.reverse().map(elem => {
 
         if (elem.text) {
             $message.innerHTML += `<li><h4>${elem.whuSadTHat}</h4>${elem.text}</li> `
