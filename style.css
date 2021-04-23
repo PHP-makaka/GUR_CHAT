@@ -181,43 +181,6 @@ input[type='text'] {
     }
 }
 
-.taskComplited {
-    background: url("img/complited.png") no-repeat;
-    background-color: #ec8b68;
-
-    background-size: 55px;
-    background-position: 95% 1px;
-    color: red;
-    opacity: 0.4;
-    border: solid 0.5px black;
-    animation-name: complitedTask;
-    animation-duration: 1s;
-    cursor: crosshair;
-}
-
-@keyframes deleteTask {
-    from {
-        font-size: 24px;
-        height: 60px;
-    }
-    to {
-        top: 0;
-
-        font-size: 0px;
-        height:10px ;
-    }
-}
-
-.deleteTask {
-    color: red;
-    opacity: 0.4;
-    font-size: 0px;
-    position: relative;
-    height:0px ;
-    z-index: 2;
-    animation-name: deleteTask;
-    animation-duration: 0.5s;
-}
 
 @media screen and (max-width: 800px) {
     #page{
